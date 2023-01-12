@@ -2,25 +2,26 @@ body {
   margin: 0;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+img {
+  max-width: 100%;
 }
 
-.flex {
+.nav-wrapper {
   display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .nav {
   background-color: #1f2937;
   color: #f9faf8;
-
   padding: 12px;
 }
 
 .logo {
-  margin-right: auto;
+  font-size: 24px;
   font-weight: bold;
+  margin-right: auto;
   align-self: center;
 }
 
@@ -28,4 +29,68 @@ body {
   display: flex;
   list-style: none;
   gap: 20px;
+}
+
+.hero {
+  background-color: #1f2937;
+  padding: 75px 0;
+}
+
+.hero-wrapper {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text > h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-text > p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero-image {
+  width: 50%;
+}
+
+.hero-text > a {
+  background-color: #3882f6;
+  color: #f9faf8;
+  text-decoration: none;
+  padding: 8px 24px;
+  border-radius: 5px;
+}
+
+.info > h2 {
+  color: #1f2937;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.info-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+}
+
+.info-item {
+  text-align: center;
+  color: #1f2937;
+}
+
+.info-item > i {
+  color: #3882f6;
+  font-size: 24px;
 }
