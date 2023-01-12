@@ -71,6 +71,10 @@ img {
   border-radius: 5px;
 }
 
+.info {
+  padding: 25px 0 75px;
+}
+
 .info > h2 {
   color: #1f2937;
   font-size: 36px;
@@ -93,4 +97,25 @@ img {
 .info-item > i {
   color: #3882f6;
   font-size: 24px;
+}
+
+.reviews {
+  background-color: #e5e7eb;
+  padding: 50px 0;
+}
+
+.reviews-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.review-text {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.review-author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
 }
