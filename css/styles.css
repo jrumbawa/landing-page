@@ -119,3 +119,11 @@ img {
   font-size: 24px;
   font-weight: bold;
 }
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 50px 0;
+  text-align: center;
+}
